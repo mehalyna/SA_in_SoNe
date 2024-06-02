@@ -48,7 +48,12 @@ or
    - Social network graphing is done using `networkx` to show relationships between terms.
 
 ### Running the Application
-To run this application, save the code to a Python file and run it using Streamlit:
+1. Clone this repo
+2. Install all dependencies
+```bash
+pip install -r requirements.txt
+```
+3. Run this application using Streamlit:
 ```bash
 streamlit run sentiment.py
 ```
